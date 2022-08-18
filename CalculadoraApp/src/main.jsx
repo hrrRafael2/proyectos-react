@@ -9,6 +9,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     <Menu
       name={ miMenu[0].name }
+      img={ miMenu[0].img   }
+      precio={miMenu[0].precio}
+      descripcion={miMenu[0].descripcion}
+    />
+    <Menu
+      name={ miMenu[1].name }
+      img={ miMenu[1].img   }
+      precio={miMenu[1].precio}
+      descripcion={miMenu[1].descripcion}
     />
   </React.StrictMode>
 )

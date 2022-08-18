@@ -3,15 +3,29 @@ h1 {
 }
 
 .menu{
-  width:500px;
-  height: auto;
+  margin-top: 100px;
+  width:350px;
+  /* height: auto;
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-direction: column; */
   background: rgb(54, 54, 255);
   border-radius: 30px;
+  padding:12px;
+}
+/* .main-lap{
+  display: flex;
+  justify-content: center;
+  align-content: center; */
 }
 
+ .header{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+} 
 .header > h1{
   text-align: center;
   color:white;
@@ -23,3 +37,28 @@ h1 {
   top:0px;
   left:0px;
 } */
+.header{
+  margin: 0 auto;
+}
+.img-main-h{
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  margin:0 auto;
+}
+.btn-buy-hamburguer , button{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width:120px;
+  background-color: brown;
+  color:white;
+  border:none;
+  padding:12px;
+  margin:0 auto;  
+  cursor:pointer;
+}
+
+.btn-buy-hamburguer , button:hover{
+  background-color: yellow;
+  color:black;
+}
